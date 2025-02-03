@@ -2,10 +2,19 @@
   "name": "authhelper",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rynchrls/authentication-facilitator"
+  },
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["jwt", "authentication", "token", "express"],
+  "keywords": [
+    "jwt",
+    "authentication",
+    "token",
+    "express"
+  ],
   "author": "Ryan Charles Alcaraz",
   "license": "MIT",
   "description": "a npm package for authentication",

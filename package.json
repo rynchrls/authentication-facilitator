@@ -1,0 +1,19 @@
+{
+  "name": "authhelper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["jwt", "authentication", "token", "express"],
+  "author": "Ryan Charles Alcaraz",
+  "license": "MIT",
+  "description": "a npm package for authentication",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

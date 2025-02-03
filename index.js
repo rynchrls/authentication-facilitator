@@ -8,7 +8,7 @@ const DEFAULT_EXPIRATION = 3600; // 1 hour
  * @param {string} expiresIn - Token expiration time (e.g., '1h', '7d').
  * @returns {string} - The generated JWT token.
  */
-const buildToken = (payload, secret, expiresIn = DEFAULT_EXPIRATION) => {
+const buildToken = (payload, secret, expiresIn = '1h') => {
   return jwt.sign(payload, secret, { expiresIn });
 };
 

@@ -14,7 +14,7 @@ const SECRET = "DEV_MODE";
 describe("JWT Facilitator", () => {
   it("should generate an access token", () => {
     const payload = { userId: 1 };
-    const token = buildToken(payload, SECRET);
+    const token = buildToken(payload, SECRET, "1h");
     expect(token).toBeDefined();
     expect(typeof token).toBe("string");
   });

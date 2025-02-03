@@ -26,7 +26,8 @@ const { buildToken, authenticateToken, resolveToken, enforceJWT } = require("aut
 ```js
 const userPayload = { userId: 123 };
 const secretKey = "your_secret_key";
-const token = buildToken(userPayload, secretKey);
+const expiresIn = '1h'
+const token = buildToken(userPayload, secretKey, expiresIn);
 console.log(token);
 ```
 
